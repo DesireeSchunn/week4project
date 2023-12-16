@@ -1,0 +1,261 @@
+package week4CodingProject;
+
+import java.util.Arrays;
+
+public class CodingProjectWeek4 {
+
+	public static void main(String[] args) {
+
+	
+//  1. Create an Array of int called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.  
+  
+//		int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
+  
+  
+// a. Programmatically subtract the value of the first element in the Array from the value in
+//	  the last element of the Array (i.e. do not use ages[7] in your code). Print the result to the
+//    console.
+		
+//		int length = ages.length;
+//		int difference = Math.abs(ages[length - length] - ages[length - 1]);
+//
+//		System.out.println("The Difference of first and last element in ages = " + difference);
+
+	
+		
+		
+// b. Create a new array of int called ages2 with 9 elements (ages2 will be longer than
+//	  the ages array, and have more elements).
+		
+//		int[] ages2 = { 1, 4, 13, 21, 27, 34, 7, 9, 81};
+		
+		
+// i. Make sure that there are 9 elements of type int in this new array.
+		
+//		int[] ages2 = { 1, 4, 13, 21, 27, 34, 7, 9, 81};
+		
+//ii. Repeat the subtraction from Step 1.a. (Programmatically subtract the value of
+//    the first element in the new array ages2 from the last element of ages2).
+		
+//		int length = ages2.length;
+//		int difference = Math.abs(ages2[length - length] - ages2[length - 1]);
+////
+//		System.out.println("The Difference of first and last element in ages2 = " + difference);
+		
+//iii. Show that using the index values for the elements is dynamic (works for arrays
+//     of different lengths).
+		
+		
+//c. Use a loop to iterate through the Array and calculate the average age. Print the result
+//   to the console.
+		
+//		int[] Ages = new int[ages.length];
+//
+//		System.arraycopy(ages,  0, Ages, 0, ages.length);
+//
+//		length = Ages.length;
+//		Ages[length - 1] = 100;
+//		int sum = 0;
+//		for (int i = 0; i < Ages.length; i++) {
+//			sum += Ages[i];
+//		}
+//		double average = sum / length;
+//		System.out.println("The average age in Ages = " + average );
+//		
+		
+// 2. Create an Array of String called names that contains the following values: “Sam”, “Tommy”,
+//    “Tim”, “Sally”, “Buck”, “Bob”.
+
+//          String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
+		
+		
+// a. Use a loop to iterate through the Array and calculate the average number of letters per
+//    name. Print the result to the console.
+
+	     
+//			int sum = 0;
+//			for (int i = 0; i < names.length; i++) {
+//				sum += names[i].length();
+//			}
+//			int average = sum / names.length;
+//			System.out.println("The average number of letters per name is = " + average );
+//
+//			String Names = "";
+//			for (int i = 0; i < names.length; i++) {
+//				Names += names[i] + " ";
+//			}
+//			System.out.println(Names);
+//	}
+          
+
+// b. Use a loop to iterate through the Array again and concatenate all the names together,
+//    separated by spaces, and print the result to the console.
+          
+	        
+//            public static String concatenateWord(String word, int n) {
+//            if (n <= 0) {
+//            return "";
+//             }
+//            StringBuilder result = new StringBuilder();
+//            for (int i = 0; i < n; i++) {
+//            result.append(word);
+//            }
+//            return result.toString();
+//            }
+//
+//            String word = "Hello";
+//            int n = 3;
+//            System.out.println(concatenateWord(word, n)); 
+
+          
+// 3. How do you access the last element of any Array?
+	
+//	      You can access the last element of any array by using the array's length-1 as the index.
+          
+// 4. How do you access the first element of any Array?
+	
+//	      You can access an array element by referring to its index number, which is always 0.
+          
+// 5. Create a new Array of int called nameLengths. Write a loop to iterate over the previously
+//    created names Array and add the length of each name to the nameLengths Array.
+          
+//		String[] names = {"Sam", "Tommy", "Tim", "Sally", "Buck", "Bob"};
+//		
+//		   int sum = 0;
+//		   for (int i = 0; i < names.length; i++) {
+//		   sum += names[i].length();
+//	       int[] nameLengths = new int[names.length];
+//		   
+//		   
+//		   System.out.println(Arrays.toString(nameLengths));
+//				
+//
+// 6. Write a loop to iterate over the nameLengths Array and calculate the sum of all the elements in
+//    the Array. Print the result to the console.
+          
+//	       int sumOfNameLengths = 0;
+//           for (int length : nameLengths) {
+//           sumOfNameLengths += length;
+//    }
+         
+//	      System.out.println("The sum of all lengths in nameLengths is" + " "+ sum);
+          
+// 7. Write a method that takes a String, word, and an int, n, as arguments and returns the word
+//    concatenated to itself n number of times. (i.e. if I pass in “Hello” and 3, I expect the method to
+//    return “HelloHelloHello”).
+	
+	
+//	public static String concatenateWord(String word, int num) {
+//        if (num <= 0) {
+//            return "";
+//        }
+//        StringBuilder result = new StringBuilder();
+//        for (int i = 0; i < num ; i++) {
+//            result.append(word);
+//        }
+//        return result.toString();
+//        
+//        String word1 = "Hello";
+//        int num1 = 3;
+//        System.out.println(concatenateWord(word1, num1));
+		
+	         
+          
+// 8. Write a method that takes two Strings, firstName and lastName, and returns a full name (the
+//    full name should be the first and the last name as a String separated by a space).
+            
+//        public static String returnFullName(String firstName, String lastName) {
+//    	  return firstName + " " + lastName;
+//	
+//    	  String firstName1 = "Desiree";
+//        String lastName1 = "Schunn";
+//        System.out.println(returnFullName(firstName1, lastName1));
+        
+// 9. Write a method that takes an Array of int and returns true if the sum of all the ints in the Array
+//    is greater than 100.
+        
+//	    public static boolean isGreaterThan100(int[] numbers) {
+//    	int sum = 0;
+//    	for (int num : numbers) {
+//    		sum += num;
+//    	}
+//    	return sum > 100;
+//    	
+//    	int[] ages;
+//		System.out.println(isGreaterThan100(ages));
+
+  
+//10. Write a method that takes an Array of double and returns the average of all the elements in
+//    the Array.
+          
+//    public static double Average(double[] numbers) {
+//    	if (numbers.length == 0) {
+//    		return 0.0;
+//    	}
+//    	double sum = 0.0;
+//    	for (double num : numbers) {
+//    		sum += num;
+//    	}
+//    	return sum / numbers.length;
+//    	
+//    	double[] numbers1 = {26.7, 43, 100.88, 1000, 563.9875};
+//    	    
+//    	System.out.println(Average(numbers1));
+//          
+//11. Write a method that takes two Arrays of double and returns true if the average of the
+//    elements in the first Array is greater than the average of the elements in the second Array.
+        
+//      public static boolean isAverageGreater(double[] array1, double [] array2) {
+//    	double average1 = calculateAverage(array1);
+//    	double average2 = calculateAverage(array2);
+//
+//    	return average1 > average2;
+//    	double[] array11;
+//		double average11 = Average(array11);
+//    	double[] array21;
+//		double average21 = Average(array21);
+//
+//    	
+//		System.out.println(isAverageGreater(array1, array2));
+
+          
+//12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double
+//    moneyInPocket, and returns true if it is hot outside and if moneyInPocket is greater than 10.50.
+       
+	
+//      public static boolean willBuyDrink(boolean isHotOutside, double moneyInPocket) {
+//    	return isHotOutside && moneyInPocket > 10.50;
+//        
+//    	boolean isHotOutside1 = true;
+//    	
+//      double moneyInPocket1 = 21.00;
+//        
+//      System.out.println(willBuyDrink(isHotOutside, moneyInPocket1)); 
+        
+        
+//13. Create a method of your own that solves a problem. In comments, write what the method
+//    does and why you created it.*\}
+
+	    
+//        public static boolean willIneedALoan(boolean haveMoney, double needMoreMoney) {
+//    	return haveMoney && needMoreMoney > 100.0;
+//
+//    	boolean haveMoney1 = true;
+//        double needMoreMoney1 = 100.2;
+//        
+//        
+//        System.out.println(willIneedALoan(haveMoney1, needMoreMoney1));
+//        }
+
+
+
+
+private static double Average(double[] array11) {
+	// TODO Auto-generated method stub
+	return 0;
+
+}
+
+private static double calculateAverage(double[] array1) {
+	// TODO Auto-generated method stub
+	return 0;
